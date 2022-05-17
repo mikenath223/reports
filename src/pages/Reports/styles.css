@@ -1,0 +1,29 @@
+.reports {
+  display: flex;
+  padding-top: 2rem;
+  gap: 40px;
+  flex-grow: 2;
+}
+
+.heading {
+  color: #011f4b;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.intro {
+  color: #7e8299;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.form-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.data-wrap {
+  margin-right: 5rem;
+  width: 100%;
+}
