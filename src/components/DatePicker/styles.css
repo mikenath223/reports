@@ -1,0 +1,25 @@
+.ReactModal__Content {
+  width: max-content;
+  height: max-content;
+  position: unset !important;
+}
+
+.ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-text {
+  background-color: #1bc5bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.task-img {
+  padding-top: 3px;
+  margin-left: 5px;
+}
