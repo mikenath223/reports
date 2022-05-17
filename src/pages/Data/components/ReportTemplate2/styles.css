@@ -1,0 +1,41 @@
+.reports-2-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.reports-template2 {
+  width: 50%;
+}
+
+.pie-chart-wrap {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.pie-span {
+  display: block;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.pie-titles {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f1fafe;
+  border-radius: 10px;
+}
+
+.pie-title-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.pie-title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #011f4b;
+}

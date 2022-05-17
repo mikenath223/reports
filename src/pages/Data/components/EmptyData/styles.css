@@ -1,0 +1,27 @@
+.empty-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #011f4b;
+}
+
+.empty-content {
+  font-size: 16px;
+  font-weight: 700;
+  color: #7e8299;
+}
+
+.empty-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  width: 100%;
+}
+
+.content-wrap {
+  text-align: center;
+  width: clamp(400px, 75%, 450px);
+}
+
+.content-wrap img {
+  width: 100%;
+}

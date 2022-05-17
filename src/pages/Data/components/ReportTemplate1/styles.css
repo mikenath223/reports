@@ -1,0 +1,120 @@
+body {
+  overflow-x: hidden;
+}
+
+.reports-wrap {
+  margin-block: 30px;
+}
+
+.reports-template {
+  background-color: #f1fafe;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+td,
+th,
+tr,
+table {
+  border: 0 !important;
+  border-spacing: 0 !important;
+}
+
+td {
+  text-align: center;
+}
+
+thead {
+}
+
+.date {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.amount {
+  text-align: right;
+  padding-right: 25px;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.accordion {
+  margin-block: 10px;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.title {
+  color: #011f4b;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.MuiAccordion-root {
+  margin-top: 16px !important;
+}
+
+.MuiAccordion-root,
+.MuiButtonBase-root {
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.MuiButtonBase-root {
+  background-color: #fff !important;
+  min-height: unset !important;
+}
+
+.MuiAccordion-root::before {
+  display: none !important;
+}
+
+.MuiAccordionSummary-content {
+  margin: 8px 0 !important;
+}
+
+tr {
+  background-color: #f1fafe;
+}
+
+th,
+td {
+  color: #011f4b;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 7px;
+}
+
+thead tr,
+tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.MuiCollapse-wrapper,
+.grand-total,
+.MuiAccordion-root {
+  background-color: #f1fafe !important;
+}
+
+.grand-total {
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.grand-total span {
+  color: #011f4b;
+  font-size: 16px;
+  font-weight: 700;
+}
