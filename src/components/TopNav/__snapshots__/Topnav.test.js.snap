@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topnav should match snapshot 1`] = `
+<div>
+  <header
+    class="top-nav"
+  >
+    <div
+      class="flex-wrap logo-gap"
+    >
+      <svg
+        class=""
+      >
+        logo1.svg
+      </svg>
+      <svg>
+        menu.svg
+      </svg>
+    </div>
+    <div
+      class="flex-wrap"
+    >
+      <h1
+        class="initials"
+      />
+      <span
+        class="username"
+      >
+         
+      </span>
+    </div>
+  </header>
+</div>
+`;
