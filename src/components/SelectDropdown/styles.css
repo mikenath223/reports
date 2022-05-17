@@ -1,0 +1,14 @@
+.project-select .MuiSelect-select {
+  padding: 4px 0 4px 12px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.project-select {
+  background-color: #1bc5bd;
+}
+
+.project-select path {
+  color: #fff;
+}
