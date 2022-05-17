@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportTemplate3 should match snapshot 1`] = `
+<div>
+  <section
+    class="reports-wrap"
+  >
+    <div
+      class="reports-template"
+    >
+      <h1>
+        Project 1
+      </h1>
+      <div>
+        <table
+          class="table"
+        >
+          <thead>
+            <tr>
+              <th
+                class="date"
+              >
+                Date
+              </th>
+              <th>
+                Transaction ID
+              </th>
+              <th
+                class="amount"
+              >
+                Amount
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </div>
+    <div
+      class="grand-total"
+    >
+      <span>
+        TOTAL: 
+        0
+      </span>
+    </div>
+  </section>
+</div>
+`;

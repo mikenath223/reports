@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportTemplate1 should match snapshot 1`] = `
+<div>
+  <section
+    class="reports-wrap"
+  >
+    <div
+      class="reports-template"
+    >
+      <h1>
+        Project 1
+      </h1>
+      <div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded MuiAccordion-gutters accordion css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+        >
+          <div
+            aria-controls="panel1a-content"
+            aria-expanded="true"
+            class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+            id="panel1a-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content Mui-expanded MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+            >
+              <div
+                class="panel-header"
+              >
+                <h2
+                  class="title"
+                >
+                  total
+                </h2>
+                <span
+                  class="title"
+                >
+                  TOTAL:
+                   
+                  NaN
+                   
+                  USD
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel1a-header"
+                  class="MuiAccordion-region"
+                  id="panel1a-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                  >
+                    <table
+                      class="table"
+                    >
+                      <thead>
+                        <tr>
+                          <th
+                            class="date"
+                          >
+                            Date
+                          </th>
+                          <th>
+                            Gateway
+                          </th>
+                          <th>
+                            Transaction ID
+                          </th>
+                          <th
+                            class="amount"
+                          >
+                            Amount
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody />
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordion css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+        >
+          <div
+            aria-controls="panel1a-content"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+            id="panel1a-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+            >
+              <div
+                class="panel-header"
+              >
+                <h2
+                  class="title"
+                >
+                  data
+                </h2>
+                <span
+                  class="title"
+                >
+                  TOTAL:
+                   
+                  NaN
+                   
+                  USD
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel1a-header"
+                  class="MuiAccordion-region"
+                  id="panel1a-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                  >
+                    <table
+                      class="table"
+                    >
+                      <thead>
+                        <tr>
+                          <th
+                            class="date"
+                          >
+                            Date
+                          </th>
+                          <th>
+                            Gateway
+                          </th>
+                          <th>
+                            Transaction ID
+                          </th>
+                          <th
+                            class="amount"
+                          >
+                            Amount
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody />
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="grand-total"
+    >
+      <span>
+        TOTAL: 
+        NaN
+      </span>
+    </div>
+  </section>
+</div>
+`;

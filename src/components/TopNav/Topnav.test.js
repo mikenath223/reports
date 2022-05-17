@@ -1,14 +1,14 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
-import { store } from "./app/store";
-import App from "./App";
+import { store } from "app/store";
+import TopNav from ".";
 
-describe("App", function () {
-  it("should mach snapshot", () => {
+describe("Topnav", function () {
+  it("should match snapshot", () => {
     const { container } = render(
       <Provider store={store}>
-        <App />
+        <TopNav />
       </Provider>
     );
 

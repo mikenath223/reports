@@ -1,0 +1,33 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5rem 1.5rem 2rem;
+  border-bottom: 2px solid #f3f6f9;
+}
+
+.initials {
+  text-align: center;
+  color: #fff;
+  background-color: #f6ca65;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.flex-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-gap {
+  gap: 40px;
+}
+
+.username {
+  color: #005b96;
+  font-weight: 700;
+  font-size: 16px;
+}

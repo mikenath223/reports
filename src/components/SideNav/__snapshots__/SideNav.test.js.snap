@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidenav should match snapshot 1`] = `
+<div>
+  <nav
+    class="side-nav"
+  >
+    <svg>
+      sidenav.svg
+    </svg>
+  </nav>
+</div>
+`;

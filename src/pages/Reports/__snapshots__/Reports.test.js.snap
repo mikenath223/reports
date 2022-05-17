@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topnav should match snapshot 1`] = `
+<div>
+  <section
+    class="reports"
+  >
+    <nav
+      class="side-nav"
+    >
+      <svg>
+        sidenav.svg
+      </svg>
+    </nav>
+    <div
+      class="data-wrap"
+    >
+      <div
+        class="form-wrap"
+      >
+        <div>
+          <h1
+            class="heading"
+          >
+            Reports
+          </h1>
+          <p
+            class="intro"
+          >
+            Easily generate a report of your transactions
+          </p>
+        </div>
+        <section
+          class="form"
+        >
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary project-select css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+          >
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="projects-select"
+              class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+              id="projects-select"
+              role="button"
+              tabindex="0"
+            >
+              All Projects
+            </div>
+            <input
+              aria-hidden="true"
+              class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+              tabindex="-1"
+              value="All Projects"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+              data-testid="ArrowDropDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-hdw1oc"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary project-select css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+          >
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="projects-select"
+              class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+              id="projects-select"
+              role="button"
+              tabindex="0"
+            >
+              All Gateways
+            </div>
+            <input
+              aria-hidden="true"
+              class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+              tabindex="-1"
+              value="All Gateways"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+              data-testid="ArrowDropDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-hdw1oc"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          <div
+            class="datewrap"
+          >
+            <button
+              class="date-text"
+            >
+              <p>
+                From date
+                <svg
+                  class="task-img"
+                >
+                  calendar.svg
+                </svg>
+              </p>
+              <p />
+            </button>
+          </div>
+          <div
+            class="datewrap"
+          >
+            <button
+              class="date-text"
+            >
+              <p>
+                To date
+                <svg
+                  class="task-img"
+                >
+                  calendar.svg
+                </svg>
+              </p>
+              <p />
+            </button>
+          </div>
+          <button
+            class="submit-button"
+          >
+            Generate report
+          </button>
+        </section>
+      </div>
+      <section
+        class="empty-wrap"
+      >
+        <div
+          class="content-wrap"
+        >
+          <h1
+            class="empty-heading"
+          >
+            No reports
+          </h1>
+          <p
+            class="empty-content"
+          >
+            Currently you have no data for the reports to be generated. Once you start generating traffic through the Balance application the reports will be shown.
+          </p>
+          <img
+            alt=""
+            src="emptydata.png"
+          />
+        </div>
+      </section>
+    </div>
+  </section>
+</div>
+`;

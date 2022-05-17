@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.submit-button {
+  background-color: #005b96;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
