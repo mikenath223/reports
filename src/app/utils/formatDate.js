@@ -3,5 +3,5 @@ export const formatDate = (date) => {
     return;
   }
   const [month, day, year] = new Date(date).toLocaleDateString().split("/");
-  return [year, month, day].join("-");
+  return [day, month, year].join(".");
 };

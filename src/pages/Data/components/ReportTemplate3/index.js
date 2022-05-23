@@ -1,8 +1,10 @@
 import { formatDate } from "app/utils/formatDate";
+import { sortByDate } from "app/utils/sortByDate";
 import PropTypes from "prop-types";
 
 export default function ReportTemplate3({ title, reports }) {
-  const grandTotal = reports.reduce((a, c) => a + c.total, 0);
+  const grandTotal = reports.reduce((a, c) => a + c.amount, 0);
+  const sorted = sortByDate(reports);
 
   return (
     <section className="reports-wrap">
@@ -18,7 +20,7 @@ export default function ReportTemplate3({ title, reports }) {
               </tr>
             </thead>
             <tbody>
-              {reports?.map((project) => {
+              {sorted?.map((project) => {
                 return (
                   <tr key={project.amount}>
                     <td className="date">{formatDate(project?.created)}</td>

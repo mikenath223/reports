@@ -6,6 +6,7 @@ import { useState } from "react";
 import Chart from "react-google-charts";
 import PropTypes from "prop-types";
 import "./styles.css";
+import { sortByDate } from "app/utils/sortByDate";
 
 export default function ReportTemplate2({ title, reports, totalTitle }) {
   const [expanded, setExpanded] = useState(
@@ -28,6 +29,7 @@ export default function ReportTemplate2({ title, reports, totalTitle }) {
 
   const renderProject = (projectTitle, i) => {
     const data = reports[projectTitle]?.data;
+    const sortedData = sortByDate(data);
     return (
       <Collapsible
         key={projectTitle}
@@ -57,7 +59,7 @@ export default function ReportTemplate2({ title, reports, totalTitle }) {
             </tr>
           </thead>
           <tbody>
-            {data?.map((project) => {
+            {sortedData?.map((project) => {
               return (
                 <tr key={project.amount}>
                   <td className="date">{formatDate(project?.created)}</td>

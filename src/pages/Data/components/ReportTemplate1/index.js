@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import PropTypes from "prop-types";
 import "./styles.css";
+import { sortByDate } from "app/utils/sortByDate";
 
 export default function ReportTemplate1({ title, reports }) {
   const gateways = useSelector((state) => state.gateways);
@@ -15,6 +16,7 @@ export default function ReportTemplate1({ title, reports }) {
 
   const renderProject = (projectTitle, i) => {
     const data = reports[projectTitle]?.data;
+    const sortedData = sortByDate(data);
     return (
       <Collapsible
         key={projectTitle}
@@ -45,7 +47,7 @@ export default function ReportTemplate1({ title, reports }) {
             </tr>
           </thead>
           <tbody>
-            {data?.map((project) => {
+            {sortedData?.map((project) => {
               const gateway = gateways?.data?.find(
                 (item) => item.gatewayId === project.gatewayId
               );
